@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">♫ Spotify</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="browse.html">Browse</a>
+            <a href="playlist.html">My Playlist</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="#premium">Premium</a>
+            <a href="#support">Support</a>
+            <a href="#download">Download</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="tag">YOUR MUSIC. YOUR MOOD.</p>
+            <h1>Music for every moment.</h1>
+            <p>Discover songs and playlists made for you.</p>
+
+            <form action="browse.html" method="get">
+                <input type="text" name="search"
+                    placeholder="Search for music..." required>
+                <button type="submit">Explore Music</button>
+            </form>
+        </section>
+
+        <section class="section">
+            <h2>Featured Playlists</h2>
+
+            <div class="cards">
+                <a href="playlist.html" class="card">
+                    <img src="https://placehold.co/300x300/264653/FFFFFF?text=Daily+Mix"
+                        alt="Daily Mix playlist cover">
+                    <h3>Daily Mix</h3>
+                    <p>Songs picked for your day.</p>
+                </a>
+
+                <a href="playlist.html" class="card">
+                    <img src="https://placehold.co/300x300/6D597A/FFFFFF?text=Chill+Vibes"
+                        alt="Chill Vibes playlist cover">
+                    <h3>Chill Vibes</h3>
+                    <p>Relax and enjoy the music.</p>
+                </a>
+
+                <a href="playlist.html" class="card">
+                    <img src="https://placehold.co/300x300/E76F51/FFFFFF?text=Workout"
+                        alt="Workout playlist cover">
+                    <h3>Workout Hits</h3>
+                    <p>Music to keep you moving.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Spotify Clone | DevCamp 2.0</p>
+        <a href="#support">Support</a>
+        <a href="#download">Download</a>
+    </footer>
+
+</body>
+</html>
